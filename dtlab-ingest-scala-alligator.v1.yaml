@@ -8,7 +8,7 @@ info:
     url: 'https://home.dtlaboratory.com'
   license:
     name: MIT
-    url: 'https://github.com/SoMind/dtlab-ingest-scala-alligator/blob/master/LICENSE'
+    url: 'https://github.com/dtlaboratory/dtlab-ingest-scala-alligator/blob/master/LICENSE'
   description: |-
     Manage DtLab Telemetry Ingest Service.
 
