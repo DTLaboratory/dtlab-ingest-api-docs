@@ -155,7 +155,13 @@ paths:
       summary: get object extractor spec
       tags:
         - ask
-      responses: {}
+      responses:
+        '200':
+          description: Ok
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ObjectExtractorSpec'
       operationId: get-dtlab-ingest-alligator-extractor-object-spec
       description: Instructions for extracting an array of telemetry from a single batch of telemetry packaged in a single json object.
     parameters:
